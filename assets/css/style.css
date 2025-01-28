@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", serif;
 }
 
 img{
@@ -61,6 +64,9 @@ ul{
       background-color: pink;
   }
     
+  .song-album{
+    background-color: pink;
+  }
 
 }
 
@@ -158,8 +164,14 @@ ul{
         line-height: 1.7rem;
     }
 }
+
+.playlist-btn{
+  span{
+    vertical-align: middle;
+  }
+}
 .bottom{
-  padding-top: 17.8rem;
+  padding-top: 17.5rem;
 }
 .account{
   border-top: 1px solid grey;
@@ -173,7 +185,7 @@ ul{
   height: 28px;
   margin-top: 0.2rem;
   display: inline-block;
-  
+  border-radius: 50%;  
 
 }
 
@@ -202,11 +214,26 @@ main{
 .card-text{
     text-align: center;
 }
+/* #endregion main */
 
+/* #region player */
 .player{
     height: 91px;
     /* width: 1440px; */
     background-color: grey;
 
 }
-
+.song{
+  align-items: center;
+  /* gap: 1rem; */
+  margin-left: 0.50rem;
+  .song-btn{
+    margin-left: 1rem;
+    
+  }
+}
+.song-album{
+  width: 42px;
+  height: 42px;
+  margin-right: 0.40rem;
+}
