@@ -22,6 +22,17 @@
     .upgrade-bar{
         background-color: blue;
     }
+
+    .btn{
+        background: pink;
+        height: 2reM;
+        padding: 0.40rem 1rem;
+        border-radius: 5rem;
+    }
+    main{
+        color: black;
+        background-color: aquamarine;
+    }
     
 
 }
@@ -34,9 +45,10 @@ ul{
     list-style: none;
 }
 
-.top{
+.d-flex{
     display: flex;
 }
+
 
 /* regionsidebar */
 .sidebar{
@@ -67,17 +79,30 @@ ul{
 }
 
 /* region main */
-
+main{
+    width: 100%;
+    height: calc(100vh - 179px);
+    overflow-y: auto;
+}
 .upgrade-bar{
     height: 88px;
-    width: 100vw;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
-
+.categories{
+    justify-content: center;
+    ul{
+        gap: 1rem;
+    }
+}
 
 
 .player{
     height: 91px;
-    width: 100vw;
+    width: 100%;
     background-color: grey;
+
 }
 

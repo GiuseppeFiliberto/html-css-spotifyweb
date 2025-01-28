@@ -7,3 +7,5 @@ todo list:
 -una volta finita la macro struttura, inserire i componenti
 
 -ultimare con i dettagli come hover
+
+-rendere tutto responsive
