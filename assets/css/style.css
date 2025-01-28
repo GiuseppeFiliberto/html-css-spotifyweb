@@ -221,6 +221,7 @@ main{
     height: 91px;
     /* width: 1440px; */
     background-color: grey;
+    justify-content: space-between;
 
 }
 .song{
@@ -236,4 +237,9 @@ main{
   width: 42px;
   height: 42px;
   margin-right: 0.40rem;
+}
+
+.buttons-right{
+  align-items: center;
+  gap: 1rem;
 }
