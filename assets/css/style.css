@@ -4,3 +4,42 @@
     box-sizing: border-box;
 }
 
+
+.debug{
+
+    color: white;
+
+    *{
+        border: 1px dashed black;
+    }
+
+    .logo{
+        width: 133px;
+        height: 40px;
+        background-color: green;
+    }
+    
+
+}
+
+img{
+    width: 100%;
+}
+
+
+.sidebar{
+    width: 230px;
+    height: 100vh;
+    padding: 1rem;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.player{
+    height: 91px;
+    width: 100%;
+    background-color: grey;
+}
