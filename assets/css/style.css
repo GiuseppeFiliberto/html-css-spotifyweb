@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+img{
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+/* commons */
 
 .debug{
 
@@ -33,22 +42,82 @@
         color: black;
         background-color: aquamarine;
     }
+
+    .card-img{
+        width: 180px;
+        height: 186px;
+        background-color: pink;
+    }
     
 
 }
 
-img{
-    width: 100%;
-}
+/* Layout */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
 
-ul{
-    list-style: none;
-}
+  .col-1{
+    width: calc(100% / 12 * 1);
+  }
+  
+  .col-2{
+    width: calc(100% / 12 * 2);
+  }
+
+  .col-lg-2
+  
+  .col-3{
+    width: calc(100% / 12 * 3);
+  }
+  
+  .col-4{
+    width: calc(100% / 12 * 4);
+  }
+
+  
+  .col-5{
+    width: calc(100% / 12 * 5);
+  }
+  
+  .col-6{
+    width: 50%;
+  }
+  
+  .col-7{
+    width: calc(100% / 12 * 7);
+  }
+  
+  .col-8{
+    width: calc(100% / 12 * 8);
+  }
+  
+  .col-9{
+    width: calc(100% / 12 * 9);
+  }
+  
+  .col-10{
+    width: calc(100% / 12 * 10);
+  }
+  
+  .col-11{
+    width: calc(100% / 12 * 11);
+  }
+  
+  .col-12{
+    width: 100%;
+  }
+
+ [class^="col"]{
+      padding: 0rem, 1rem;
+    }
 
 .d-flex{
     display: flex;
 }
-
 
 /* regionsidebar */
 .sidebar{
@@ -80,9 +149,10 @@ ul{
 
 /* region main */
 main{
-    width: 100%;
+    /* width: 100%; */
     height: calc(100vh - 179px);
     overflow-y: auto;
+    flex-grow: 1;
 }
 .upgrade-bar{
     height: 88px;
@@ -93,15 +163,19 @@ main{
 }
 .categories{
     justify-content: center;
+    padding: 0.70rem;
     ul{
         gap: 1rem;
     }
 }
 
+.card-text{
+    text-align: center;
+}
 
 .player{
     height: 91px;
-    width: 100%;
+    width: 1440px;
     background-color: grey;
 
 }
