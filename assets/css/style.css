@@ -18,6 +18,10 @@
         height: 40px;
         background-color: green;
     }
+
+    .upgrade-bar{
+        background-color: blue;
+    }
     
 
 }
@@ -30,7 +34,11 @@ ul{
     list-style: none;
 }
 
+.top{
+    display: flex;
+}
 
+/* regionsidebar */
 .sidebar{
     width: 230px;
     height: 92vh;
@@ -45,7 +53,6 @@ ul{
 
 }
 
-
 .playlist{
     margin-top: 1rem;
     .add-btn{
@@ -59,13 +66,18 @@ ul{
     }
 }
 
+/* region main */
 
+.upgrade-bar{
+    height: 88px;
+    width: 100vw;
+}
 
 
 
 .player{
     height: 91px;
-    width: 100%;
+    width: 100vw;
     background-color: grey;
 }
 
