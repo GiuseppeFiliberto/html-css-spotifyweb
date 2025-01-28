@@ -7,6 +7,17 @@
     font-family: "Montserrat", serif;
 }
 
+:root{
+  --sfy-primary: #000000;
+  --sfy-bg: #141922;
+  --sfy-player: #282828;
+  --sfy-btn: #d2d2d2;
+  --sfy-plus-btn: #a3a3a3;
+  --sfy-marker: #adff2f;
+  --sfy-text: #686868;
+}
+
+
 img{
     width: 100%;
 }
@@ -14,7 +25,9 @@ img{
 ul{
     list-style: none;
 }
-
+.il-b{
+  display: inline-block;
+}
 /* commons */
 
 .debug{
@@ -152,6 +165,13 @@ ul{
 
 }
 
+.list-playlist{
+  line-height: 1.8rem;
+}
+
+.li-ip{
+  font-size: 1.4rem;
+}
 .playlist{
     margin-top: 1rem;
     .add-btn{
@@ -164,6 +184,7 @@ ul{
         line-height: 1.7rem;
     }
 }
+
 
 .playlist-btn{
   span{
@@ -230,7 +251,9 @@ main{
   margin-left: 0.50rem;
   .song-btn{
     margin-left: 1rem;
-    
+      i{
+        margin-right: 0.50rem;
+      }
   }
 }
 .song-album{
