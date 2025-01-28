@@ -55,6 +55,11 @@ ul{
       background-color: pink;
       border-radius: 7rem;
   }
+  .account-img{
+      width: 28px;
+      height: 28px;
+      background-color: pink;
+  }
     
 
 }
@@ -152,6 +157,24 @@ ul{
     ul{
         line-height: 1.7rem;
     }
+}
+.bottom{
+  padding-top: 17.8rem;
+}
+.account{
+  border-top: 1px solid grey;
+  h4{
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+.account-img{
+  width: 28px;
+  height: 28px;
+  margin-top: 0.2rem;
+  display: inline-block;
+  
+
 }
 
 /* region main */
