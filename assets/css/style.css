@@ -301,19 +301,40 @@ font-size: 1.5rem;
 justify-content: center;
 gap: 2rem;
 }
-
+.progression-bar{
+  padding-top: 0.60rem;
+  align-items: center;
+  gap: 1rem;
+  .time{
+    font-size: 0.70rem;
+    font-weight: 700;
+  }
+}
 .bar-full{
   border: 2px solid lightgrey;
   width: 83px;
+  height: 0px;
 }
 
 .bar-empty{
   border: 2px solid grey;
   width: 346px;
+  height: 0px;
+}
+.bar-full-right{
+  border: 2px solid lightgrey;
+  width: 30px;
+  height: 0px;
 }
 
+.bar-empty-right{
+  border: 2px solid grey;
+  width: 70px;
+  height: 0px;
+}
 
 .buttons-right{
   align-items: center;
   gap: 1rem;
+  margin-right: 1rem;
 }
