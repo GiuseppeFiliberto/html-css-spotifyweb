@@ -342,6 +342,13 @@ main{
     }
 }
 
+.recently, .created, .popular{
+  padding-bottom: 2rem;
+  h2{
+    padding-bottom: 1rem;
+  }
+}
+
 .categories ul li:hover{
 
     color: var(--sfy-lighter);
@@ -388,8 +395,8 @@ main{
 
 
 .card-img-rounded{
-  width: 186px;
-  height: 186px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   img{
     border-radius: 50%;
@@ -514,7 +521,20 @@ gap: 2rem;
     width: calc(100% / 12 * 3);
   }
 
+  .card{
+    padding-bottom: 3rem;
+  }
+
   .card-img{
+    width: 140px;
+    height: 140px;
+    padding-bottom: 2rem;
+    h5{
+      font-size: 1rem;
+    }
+  }
+
+  .card-img-rounded{
     width: 140px;
     height: 140px;
   }
