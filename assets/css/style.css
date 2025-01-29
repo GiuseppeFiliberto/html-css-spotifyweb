@@ -135,9 +135,7 @@ i:hover{
 
   .col-lg-2
   
-  .col-3{
-    width: calc(100% / 12 * 3);
-  }
+
   
   .col-4{
     width: calc(100% / 12 * 4);
@@ -177,8 +175,8 @@ i:hover{
   }
 
  [class^="col"]{
-      padding-right: 1rem;
-      padding-top: 2rem;
+      padding: 1rem;
+      padding-right: 1.5rem;
     }
 
 .d-flex{
@@ -213,7 +211,7 @@ i:hover{
 }
 
 .menu{
-  line-height: 1.8rem;
+  line-height: 2.2rem;
 }
 
 .menu li :hover{
@@ -246,7 +244,8 @@ i:hover{
       margin-bottom: 1rem;
     }
     ul{
-        line-height: 1.8rem;
+        line-height: 2.2rem;
+        font-weight: 700;
     }
 }
 
@@ -351,6 +350,7 @@ main{
 
 .card-text{
     text-align: center;
+    padding-top: 1rem;
     h5{
       color: var(--sfy-lighter);
     }
@@ -358,7 +358,7 @@ main{
 
 .card-img{
   width: 180px;
-  height: 186px;
+  height: 180px;
   position: relative;
   img{
     display: block;
@@ -504,4 +504,36 @@ gap: 2rem;
   align-items: center;
   gap: 1rem;
   margin-right: 1rem;
+}
+
+/* mediaqueries */
+
+@media screen and (max-width: 878px) {
+
+  .col-3{
+    width: calc(100% / 12 * 3);
+  }
+
+  .card-img{
+    width: 140px;
+    height: 140px;
+  }
+
+  .bar-full{
+    width: 40px;
+  }
+
+  .bar-empty{
+    width: 190px;
+  }
+
+  .categories ul{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem;
+    li{
+      font-size: 0.90rem;
+    }
+  }
+
 }
