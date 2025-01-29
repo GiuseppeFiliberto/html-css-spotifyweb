@@ -62,7 +62,7 @@ ul{
     .card-img{
         width: 180px;
         height: 186px;
-        background-color: pink;
+        /* background-color: pink; */
     }
 
     .card-img-rounded{
@@ -151,9 +151,13 @@ ul{
 }
 
 /* regionsidebar */
+.top{
+  height: calc(100vh - 91px);
+}
+
 .sidebar{
     width: 230px;
-    /* height: 92vh; */
+    height: 100%;
     padding: 1rem;
     background-color: black;
     display: flex;
@@ -212,9 +216,9 @@ ul{
 
 /* region main */
 main{
-    height: calc(100vh - 92px);
+    height: 100%;
+    width: calc(100% - 230px);
     overflow-y: auto;
-    width: 100%;
     /* flex-grow: 1; */
 }
 .upgrade-bar{
