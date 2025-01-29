@@ -46,6 +46,7 @@ ul{
   color: var(--sfy-lighter);
 }
 
+
 /* commons */
 
 .debug{
@@ -161,7 +162,8 @@ ul{
   }
 
  [class^="col"]{
-      padding: 1rem;
+      padding-right: 1rem;
+      padding-top: 2rem;
     }
 
 .d-flex{
@@ -199,6 +201,11 @@ ul{
   line-height: 1.8rem;
 }
 
+.menu li :hover{
+  color: var(--sfy-lighter);
+  cursor: pointer;
+}
+
 .list-img{
   height: 25px;
   width: 25px;
@@ -228,11 +235,22 @@ ul{
     }
 }
 
+.playlist span:hover{
+  color: var(--sfy-lighter);
+  cursor: pointer;
+}
+
+.playlist ul li:hover{
+    color: var(--sfy-lighter);
+    cursor: pointer;
+}
+
 .add-btn{
   vertical-align: middle;
   .plus{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+    color: var(--sfy-player);
   
   }
 }
@@ -249,6 +267,11 @@ ul{
     font-size: 0.85rem;
     font-weight: 600;
   }
+}
+
+.download span:hover{
+    color: var(--sfy-lighter);
+    cursor: pointer;
 }
 
 .account{
@@ -281,6 +304,7 @@ main{
     background-color: var(--sfy-bg);
     section{
       padding-bottom: 1.5rem;
+      padding: 1rem;
     }
 }
 
@@ -302,6 +326,12 @@ main{
     ul{
         gap: 1rem;
     }
+}
+
+.categories ul li:hover{
+
+    color: var(--sfy-lighter);
+    cursor: pointer;
 }
 
 .card-text{
@@ -381,12 +411,18 @@ main{
   margin-right: 0.40rem;
 }
 
+.song-btn i:hover{
+  color: var(--sfy-lighter);
+  cursor: pointer;
+}
+
 .controller-btns{
   padding-top: 1rem;
 font-size: 1.5rem;
 justify-content: center;
 gap: 2rem;
 }
+
 .progression-bar{
   padding-top: 0.60rem;
   align-items: center;
@@ -397,10 +433,36 @@ gap: 2rem;
     color: var(--sfy-lighter);
   }
 }
+
+.bar{
+  align-items: center;
+}
+
 .bar-full{
   border: 2px solid lightgrey;
   width: 83px;
   height: 0px;
+}
+
+.dot{
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: none;
+}
+
+.bar-full:hover{
+
+  border: 2px solid var(--sfy-marker);
+  cursor: pointer;
+    .dot{
+      display: block;
+    }
+}
+
+.dot:hover{
+  display: block;
 }
 
 .bar-empty{
