@@ -9,6 +9,7 @@
 
 :root{
   --sfy-primary: #000000;
+  --sfy-upgrade: #080b12;
   --sfy-bg: #141922;
   --sfy-player: #282828;
   --sfy-btn: #d2d2d2;
@@ -28,6 +29,17 @@ ul{
 .il-b{
   display: inline-block;
 }
+
+.btn{
+  background-color: transparent;
+  border: 2px solid white;
+  text-align: center;
+  color: white;
+  padding: 0.80rem 2rem;
+  border-radius: 5rem;
+  font-weight: 600;
+}
+
 /* commons */
 
 .debug{
@@ -48,12 +60,13 @@ ul{
         background-color: blue;
     }
 
-    .btn{
+    /* .btn{
         background: pink;
         height: 2reM;
         padding: 0.40rem 1rem;
         border-radius: 5rem;
-    }
+    } */
+
     main{
         color: black;
         background-color: aquamarine;
@@ -67,14 +80,13 @@ ul{
 
     .card-img-rounded{
       width: 180px;
-      height: 186px;
-      background-color: pink;
-      border-radius: 7rem;
+      height: 180px;
+      border-radius: 50%rem;
   }
   .account-img{
       width: 28px;
       height: 28px;
-      background-color: pink;
+      
   }
     
   .song-album{
@@ -155,7 +167,13 @@ ul{
   height: calc(100vh - 91px);
 }
 
+.logo{
+  width: 133px;
+  height: 40px;
+}
+
 .sidebar{
+    background-color: var(--sfy-primary);
     width: 230px;
     height: 100%;
     padding: 1rem;
@@ -239,7 +257,12 @@ ul{
   height: 28px;
   margin-top: 0.2rem;
   display: inline-block;
-  border-radius: 50%;  
+  border-radius: 50%;
+  vertical-align: middle;
+  background-color: grey;
+  img{
+    border-radius: 50%;
+  }
 
 }
 
@@ -248,18 +271,23 @@ main{
     height: 100%;
     width: calc(100% - 230px);
     overflow-y: auto;
-    /* flex-grow: 1; */
+    background-color: var(--sfy-bg);
 }
+
+
 .upgrade-bar{
+    background-color: var(--sfy-upgrade);
     height: 88px;
-    
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    padding-right: 2rem;
 }
+
 .categories{
     justify-content: center;
     padding: 0.70rem;
+    font-weight: 600;
     ul{
         gap: 1rem;
     }
@@ -267,6 +295,22 @@ main{
 
 .card-text{
     text-align: center;
+}
+
+.card-img{
+  width: 180px;
+  height: 186px;
+}
+
+
+.card-img-rounded{
+  width: 186px;
+  height: 186px;
+  border-radius: 50%;
+  img{
+    border-radius: 50%;
+  }
+
 }
 /* #endregion main */
 
