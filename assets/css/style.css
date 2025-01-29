@@ -171,10 +171,7 @@ i:hover{
     width: 100%;
   }
 
- [class^="col"]{
-      padding: 1rem;
-      padding-right: 1.5rem;
-    }
+ 
 
 .d-flex{
     display: flex;
@@ -652,15 +649,33 @@ gap: 2rem;
   }
 
   .card{
-    padding-bottom: 7rem;
+    padding-bottom: 5rem;
   }
+
   .card-img{
-    width: 220px;
-    width: 212px;
+    width: 206px;
+    height: 210px;
+  }
+
+  .card-img-rounded{
+    width: 206px;
+    height: 210px;
   }
 
   .song-title{
     line-height: 0.80rem;
   }
 
+  .controller-btns{
+    font-size: 1rem;
+    justify-content: flex-start;
+  }
+
+  .bar-full{
+    width: 20px;
+  }
+
+  .bar-empty{
+    width: 90px;
+  }
 }
