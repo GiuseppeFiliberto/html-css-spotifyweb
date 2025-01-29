@@ -170,13 +170,23 @@ ul{
 
 }
 
-.list-playlist{
+.menu{
   line-height: 1.8rem;
 }
 
-.li-ip{
-  font-size: 1.4rem;
+.list-img{
+  height: 25px;
+  width: 25px;
+  vertical-align: middle;
 }
+
+.list-text{
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+
+
 .playlist{
     margin-top: 1rem;
     .add-btn{
@@ -185,22 +195,26 @@ ul{
         background-color: grey;
         display: inline-block;
     }
+    h4{
+      margin-bottom: 1rem;
+    }
     ul{
-        line-height: 1.7rem;
+        line-height: 1.8rem;
     }
 }
 
-
-.playlist-btn{
-  span{
-    vertical-align: middle;
+.add-btn{
+  vertical-align: middle;
+  .plus{
+    text-align: center;
+    font-size: 1.8rem;
+  
   }
 }
-.bottom{
-  padding-top: 17.5rem;
-}
+
+
 .account{
-  border-top: 1px solid grey;
+  border-top: 2px solid grey;
   h4{
     display: inline-block;
     vertical-align: middle;
