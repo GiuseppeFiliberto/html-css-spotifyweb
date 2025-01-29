@@ -207,14 +207,28 @@ ul{
   vertical-align: middle;
   .plus{
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   
   }
 }
 
+.download{
+  padding-bottom: 0.30rem;
+  .down-img{
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    margin-right: 0.30rem;
+  }
+  span{
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+}
 
 .account{
   border-top: 2px solid grey;
+  padding-top: 0.50rem;
   h4{
     display: inline-block;
     vertical-align: middle;
@@ -260,7 +274,7 @@ main{
 .player{
     height: 91px;
     /* width: 1440px; */
-    background-color: grey;
+    background-color: var(--sfy-player);
     justify-content: space-between;
 
 }
@@ -280,6 +294,24 @@ main{
   height: 42px;
   margin-right: 0.40rem;
 }
+
+.controller-btns{
+  padding-top: 1rem;
+font-size: 1.5rem;
+justify-content: center;
+gap: 2rem;
+}
+
+.bar-full{
+  border: 2px solid lightgrey;
+  width: 83px;
+}
+
+.bar-empty{
+  border: 2px solid grey;
+  width: 346px;
+}
+
 
 .buttons-right{
   align-items: center;
