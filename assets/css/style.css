@@ -234,6 +234,7 @@ i:hover{
 
 .playlist{
     margin-top: 1rem;
+    overflow-y: scroll;
     .add-btn{
         height: 35px;
         width: 35px;
@@ -246,6 +247,7 @@ i:hover{
     ul{
         line-height: 2.2rem;
         font-weight: 700;
+        max-height: 160px;
     }
 }
 
