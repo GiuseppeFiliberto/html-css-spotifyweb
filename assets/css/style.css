@@ -146,9 +146,6 @@ i:hover{
     width: calc(100% / 12 * 5);
   }
   
-  .col-6{
-    width: 50%;
-  }
   
   .col-7{
     width: calc(100% / 12 * 7);
@@ -555,5 +552,46 @@ gap: 2rem;
       font-size: 0.90rem;
     }
   }
+
+}
+
+@media screen and (max-width: 658px) {
+
+  .col-6{
+    width: 50%;
+  }
+  .card-img{
+    width: 160px;
+    width: 160px;
+  }
+  .bar-full{
+    width: 30px;
+  }
+
+  .bar-empty{
+    width: 130px;
+  }
+
+  .bar-full-right{
+    width: 10px;
+  }
+
+  .bar-empty-right{
+    width: 50px;
+  }
+
+  .song-btn i{
+    display: block;
+    margin-bottom: 0.35rem;
+  }
+
+  .controller-btns{
+    font-size: 1.3rem;
+  }
+
+  .categories ul{
+    line-height: 2.2rem;
+
+}
 
 }
