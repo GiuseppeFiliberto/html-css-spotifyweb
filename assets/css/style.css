@@ -181,6 +181,11 @@ i:hover{
 
 .menu{
   line-height: 2.2rem;
+  li{
+    display: flex;
+    align-items: center;
+    gap: 0.50rem;
+  }
 }
 
 .menu li :hover{
@@ -189,20 +194,18 @@ i:hover{
 }
 
 .bar-selector-home{
-
   position: relative;
-  padding-left: 1rem;
 
 }
 
-.bar-selector-home::after{
+.bar-selector-home:before{
   content:'';
   position: absolute;
   background-color: var(--sfy-marker);
   width: 3px;
   height: 90%;
   bottom: 0;
-  left: 0px; 
+  left: -15px;
 }
 
 
