@@ -644,12 +644,20 @@ gap: 2rem;
     display: none;
   }
 
+  .menu li{
+    flex-direction: column;
+  }
+
   .menu li span{
     display: none;
   }
 
   .playlist{
     display: none;
+  }
+  
+  .download{
+    text-align: center;
   }
 
   .download span{
