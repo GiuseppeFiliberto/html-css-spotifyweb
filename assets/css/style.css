@@ -148,7 +148,7 @@ i:hover{
 }
 
 
-/* regionsidebar */
+/* #region sidebar */
 
 .logo-small{
   width: 30px;
@@ -198,7 +198,6 @@ i:hover{
   font-weight: 600;
   vertical-align: middle;
 }
-
 
 .playlist{
     margin-top: 1rem;
@@ -279,8 +278,10 @@ i:hover{
   }
 
 }
+/* #endregion sidebar */
 
-/* region main */
+/* #region main */
+
 main{
     height: 100%;
     width: calc(100% - 230px);
@@ -379,12 +380,14 @@ main{
 /* #endregion main */
 
 /* #region player */
+
 .player{
     height: 91px;
     background-color: var(--sfy-player);
     justify-content: space-between;
 
 }
+
 .song{
   align-items: center;
   margin-left: 0.50rem;
@@ -400,6 +403,7 @@ main{
     font-weight: 800;
   }
 }
+
 .song-album{
   width: 42px;
   height: 42px;
@@ -462,7 +466,6 @@ gap: 2rem;
   display: block;
 }
 
-
 .bar-empty{
   border: 2px solid grey;
   width: 346px;
@@ -485,6 +488,8 @@ gap: 2rem;
   gap: 1rem;
   margin-right: 1rem;
 }
+
+/* #endregion player */
 
 /* mediaqueries */
 
