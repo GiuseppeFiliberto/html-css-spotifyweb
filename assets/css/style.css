@@ -188,6 +188,23 @@ i:hover{
   cursor: pointer;
 }
 
+.bar-selector-home{
+
+  position: relative;
+  padding-left: 1rem;
+
+}
+
+.bar-selector-home::after{
+  content:'';
+  position: absolute;
+  background-color: var(--sfy-marker);
+  width: 3px;
+  height: 90%;
+  bottom: 0;
+  left: 0px; 
+}
+
 
 .list-img{
   height: 25px;
@@ -302,6 +319,10 @@ main{
     justify-content: flex-end;
     align-items: center;
     padding-right: 2rem;
+    position: sticky;
+    top: 0;
+    right: 0;
+    z-index: 99;
 }
 
 .categories{
@@ -313,6 +334,24 @@ main{
         gap: 1rem;
     }
 }
+
+.bar-selector{
+
+  position: relative;
+  padding-bottom: 0.50rem;
+
+}
+
+.bar-selector::after{
+  content:'';
+  position: absolute;
+  background-color: var(--sfy-marker);
+  width: 30%;
+  height: 3px;
+  bottom: 0;
+  left: 40px;
+}
+
 
 .recently, .created, .popular{
   padding-bottom: 2rem;
