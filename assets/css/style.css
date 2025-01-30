@@ -28,6 +28,8 @@ img{
 ul{
     list-style: none;
 }
+
+
 .il-b{
   display: inline-block;
 }
@@ -42,6 +44,10 @@ ul{
   font-weight: 600;
   transition: all .2s ease-in-out;
 
+}
+
+.pt-1{
+  padding-top: 1rem;
 }
 
 .btn:hover{
@@ -64,6 +70,8 @@ i:hover{
 
 /* commons */
 
+/* debug */
+
 .debug{
 
     color: white;
@@ -82,12 +90,12 @@ i:hover{
         background-color: blue;
     }
 
-    /* .btn{
+    .btn{
         background: pink;
         height: 2reM;
         padding: 0.40rem 1rem;
         border-radius: 5rem;
-    } */
+    }
 
     main{
         color: black;
@@ -97,7 +105,7 @@ i:hover{
     .card-img{
         width: 180px;
         height: 186px;
-        /* background-color: pink; */
+        background-color: pink;
     }
 
     .card-img-rounded{
@@ -116,71 +124,31 @@ i:hover{
   }
 
 }
+/* /debug */
 
 /* Layout */
+
 .row{
     display: flex;
     flex-wrap: wrap;
     
   }
   
-
-  .col-1{
-    width: calc(100% / 12 * 1);
-  }
-  
   .col-2{
     width: calc(100% / 12 * 2);
   }
-
-  .col-lg-2
-  
-
-  
-  .col-4{
-    width: calc(100% / 12 * 4);
-  }
-
-  
-  .col-5{
-    width: calc(100% / 12 * 5);
-  }
   
   
-  .col-7{
-    width: calc(100% / 12 * 7);
-  }
-  
-  .col-8{
-    width: calc(100% / 12 * 8);
-  }
-  
-  .col-9{
-    width: calc(100% / 12 * 9);
-  }
-  
-  .col-10{
-    width: calc(100% / 12 * 10);
-  }
-  
-  .col-11{
-    width: calc(100% / 12 * 11);
-  }
-  
-  .col-12{
-    width: 100%;
-  }
-
- 
-
 .d-flex{
     display: flex;
 }
 
-/* regionsidebar */
 .top{
   height: calc(100vh - 91px);
 }
+
+
+/* regionsidebar */
 
 .logo-small{
   width: 30px;
@@ -219,6 +187,7 @@ i:hover{
   cursor: pointer;
 }
 
+
 .list-img{
   height: 25px;
   width: 25px;
@@ -229,7 +198,6 @@ i:hover{
   font-weight: 600;
   vertical-align: middle;
 }
-
 
 
 .playlist{
@@ -347,7 +315,10 @@ main{
 .recently, .created, .popular{
   padding-bottom: 2rem;
   h2{
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
+  }
+  span{
+    padding-bottom: rem;
   }
 }
 
@@ -565,6 +536,11 @@ gap: 2rem;
   .col-6{
     width: 50%;
   }
+  
+  .card{
+    padding-bottom: 6rem;
+  }
+
   .card-img{
     width: 160px;
     width: 160px;
